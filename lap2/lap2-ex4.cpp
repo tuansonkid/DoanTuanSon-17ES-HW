@@ -30,7 +30,7 @@ public:
                 data[i][j] = 0;
     }
 
-    Matrix(float **a, int M, int N){
+    Matrix(float a[][100], int M, int N){
         m = M;
         n = N;
         for(int i=0; i<n; i++)
