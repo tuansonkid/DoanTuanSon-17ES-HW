@@ -1,6 +1,6 @@
 #include <iostream>
-#include <vector>
 #include <conio.h>
+//#include <vector>
 
 using namespace std;
 
@@ -41,8 +41,8 @@ class StudentManagement : Student
 {
 private:
     int num;
-//    vector<Student> list;
     Student *list;
+//    vector<Student> list;
 
 public:
     StudentManagement(){
